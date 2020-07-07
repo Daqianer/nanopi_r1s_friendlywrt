@@ -47,7 +47,7 @@ jobs:
       - name: Mods
         run: |
           cd friendlywrt-h5
-          mv ../my_config1 configs/
+          mv ../my_config2 configs/
           cat ../nanopi_r1s.mk >> device/friendlyelec/h5/nanopi_r1s.mk
           cd friendlywrt/package/
           git clone https://github.com/kenzok8/openwrt-packages.git
