@@ -7,7 +7,7 @@ on:
     branches: 
       - master
     paths:
-      - '.github/workflows/r1s.yml'
+      - '.github/workflows/r1ss.yml'
 
 jobs:
 
@@ -47,7 +47,7 @@ jobs:
       - name: Mods
         run: |
           cd friendlywrt-h5
-          mv ../my_config2 configs/
+          mv ../my_config1 configs/
           cat ../nanopi_r1s.mk >> device/friendlyelec/h5/nanopi_r1s.mk
           cd friendlywrt/package/
           git clone https://github.com/kenzok8/openwrt-packages.git
